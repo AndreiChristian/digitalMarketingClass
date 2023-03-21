@@ -123,3 +123,17 @@ img {
 .testimonials .content{
     font-size: 1.3rem;
 }
+
+.nice-sticker{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 50vh;
+  /* center */
+}
+
+.nice-sticker.show{
+  display: block;
+}
