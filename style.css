@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ccc;
+}
+/* navigation */
+/* navigation */
+/* navigation */
+/* navigation */
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 5vh;
+  font-family: "Anton", sans-serif;
+}
+
+nav .logo {
+  color: darkred;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+nav li {
+  padding: 1vh;
+  transition: all 0.3s linear;
+  font-size: 1.2rem;
+}
+
+nav li:hover {
+  color: darkred;
+  border-bottom: 1px solid darkred;
+}
+
+nav li:nth-last-child(1) {
+  color: black;
+  background-color: darkred;
+  border-radius: 5px;
+}
+
+
+/* main section */
+/* main section */
+/* main section */
+/* main section */
+
+section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 50vw;
+}
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cto {
+    margin-left: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7vh;
+}
+
+.cto .content {
+  width: 30vw;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.cto .title{
+    font-size: 3rem;
+    color: darkred;
+    font-family: "Anton";
+}
+
+.cto .button{
+    color: mediumseagreen;
+    padding: 1vw;
+    border: 2px solid mediumseagreen;
+    font-size: 1.5rem;
+    font-family: "Anton";
+    transition: all 0.3s linear;
+}
+
+.cto .button:hover{
+    background-color: mediumseagreen;
+    color: black;
+}
+
+.testimonials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #cccccc6b;
+}
+
+.testimonials .content{
+    font-size: 1.3rem;
+}
